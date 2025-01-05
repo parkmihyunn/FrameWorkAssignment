@@ -1,9 +1,9 @@
-import { ReactComponent as Visa } from "../../assets/img/svg/visa.svg";
-import { ReactComponent as Master } from "../../assets/img/svg/master.svg";
-import { ReactComponent as AmericanExpress } from "../../assets/img/svg/americanExpress.svg";
-import { ReactComponent as Paypal } from "../../assets/img/svg/paypal.svg";
-import { ReactComponent as DinersClub } from "../../assets/img/svg/dinersClub.svg";
-import { ReactComponent as Discover } from "../../assets/img/svg/discover.svg";
+import Visa from "../../assets/img/svg/visa.svg";
+import Master from "../../assets/img/svg/master.svg";
+import AmericanExpress from "../../assets/img/svg/americanExpress.svg";
+import Paypal from "../../assets/img/svg/paypal.svg";
+import DinersClub from "../../assets/img/svg/dinersClub.svg";
+import Discover from "../../assets/img/svg/discover.svg";
 
 export default function Footer() {
   return (
@@ -14,12 +14,12 @@ export default function Footer() {
         </a>
       </div>
       <ul className="flex">
-        <Visa />
-        <Master />
-        <AmericanExpress />
-        <Paypal />
-        <DinersClub />
-        <Discover />
+        <img src={Visa} />
+        <img src={Master} />
+        <img src={AmericanExpress} />
+        <img src={Paypal} />
+        <img src={DinersClub} />
+        <img src={Discover} />
       </ul>
       <div>
         <div className="grid grid-flow-col gap-4">
