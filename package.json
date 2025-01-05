@@ -1,0 +1,42 @@
+{
+  "name": "react-shop",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "deploy": "yarn build && cd dist && npx vercel",
+    "update": "npx ncu -u && npm i",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@svgr/rollup": "^8.1.0",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "@types/react-router": "^5.1.20",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^2.51.6",
+    "npm-check-updates": "^16.10.12",
+    "postcss": "^8.4.49",
+    "postcss-loader": "^8.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.28.1",
+    "recoil": "^0.7.7",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@vercel/node": "^2.15.10",
+    "vite-plugin-svgr": "^4.3.0"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
