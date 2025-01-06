@@ -7,7 +7,7 @@ import Discover from "../../assets/img/svg/discover.svg";
 
 export default function Footer() {
   return (
-    <footer className="p-10 footer bg-[#f2f2f2] text-base-content footer-center">
+    <footer className="p-10 footer bg-[#f2f2f2] text-base-content footer-center dark:bg-[#191d24] dark:text-white">
       <div className="grid grid-flow-col gap-4">
         <a className="link link-hover" href="https://zero-base.co.kr/">
           제로베이스

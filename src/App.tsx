@@ -16,7 +16,7 @@ const App = (): JSX.Element => {
   return (
     <BrowserRouter>
       <Nav />
-      <section className="drawer-content dark:bg-neutral overflow-scroll flex flex-col justify-between h-[100vh]">
+      <section className="drawer-content dark:bg-neutral overflow-y-scroll flex flex-col justify-between h-[100vh]">
         <section className="main pt-16 z-1">
           <Router />
         </section>
